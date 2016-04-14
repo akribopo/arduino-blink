@@ -1,0 +1,32 @@
+{
+  "project": {
+    "name": "arduino-blink",
+    "modules": [],
+    "description": "Sample Arduino Project",
+    "mixins": [],
+    "builders": {
+      "configs": {}
+    },
+    "runners": {
+      "configs": {}
+    },
+    "visibility": "public",
+    "type": "cpp",
+    "attributes": {
+      "language": [
+        "cpp"
+      ]
+    }
+  },
+  "source": {
+    "runners": {},
+    "project": {
+      "location": "https://codenvy.com/git/2f/b9/f8/workspacew2zgcl20s6v23a64/arduino-blink",
+      "type": "git",
+      "parameters": {
+        "commitId": "132fe1594c0acdbc0c392f9f9e66257c3ee51c62"
+      }
+    }
+  },
+  "v": "2.1"
+}
