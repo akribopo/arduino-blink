@@ -1,0 +1,53 @@
+{
+  "v": "4.0",
+  "policies" : {
+    "create" : "perUser"
+  },
+  "workspace": {
+    "defaultEnv": "arduino",
+    "environments": [
+      {
+        "name": "arduino",
+        "machineConfigs": [
+          {
+            "limits": {
+              "ram": 1000
+            },
+            "name": "ws-machine",
+            "type": "docker",
+            "source": {
+              "location": "https://codenvy.com/git/2f/b9/f8/workspacew2zgcl20s6v23a64/arduino-blink",
+              "type": "recipe"
+            },
+            "dev": true
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "links": [],
+        "name": "arduino-blink-simple",
+        "attributes": {},
+        "type": "blank",
+        "source": {
+          "location": "https://github.com/akribopo/arduino-blink.git",
+          "type": "git",
+          "parameters": {}
+        },
+        "modules": [],
+        "path": "/arduino-blink-simple",
+        "description": "",
+        "problems": [],
+        "mixins": [
+          "git"
+        ]
+      }
+    ],
+    "name": "arduino",
+    "attributes": {},
+    "commands": [],
+    "links": []
+  }
+}
+
